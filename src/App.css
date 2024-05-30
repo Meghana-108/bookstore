@@ -1,0 +1,62 @@
+/* src/App.css */
+
+/* Custom color theme */
+:root {
+  --light-green:  #795f4e;
+  --dark-green: #000000;
+  --light-brown: #c9b997;
+  --dark-brown: #4f382a;
+}
+
+/* Apply custom colors to body and general elements */
+body {
+  background-color: var(--light-brown);
+  color: var(--dark-brown);
+}
+
+.navbar {
+  background-color: var(--light-green);
+}
+
+.nav-link, .navbar-brand {
+  color: var(--dark-brown) !important;
+  
+}
+
+.btn-outline-success {
+  color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--dark-green);
+  color: var(--light-green);
+}
+
+.card {
+  background-color: var(--light-green);
+  border-color: var(--dark-green);
+}
+
+.card-title, .card-text {
+  color: var(--dark-brown);
+}
+
+.card .btn-primary {
+  background-color: var(--dark-brown);
+  border-color: var(--dark-brown);
+}
+
+.card .btn-primary:hover {
+  background-color: var(--dark-green);
+  border-color: var(--dark-green);
+}
+
+.footer {
+  background-color: var(--light-green);
+  color: var(--dark-brown);
+}
+
+.footer a {
+  color: var(--dark-brown);
+}
